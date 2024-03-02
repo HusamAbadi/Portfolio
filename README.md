@@ -3,7 +3,7 @@
 ## A personal portfolio website made using `@sveltejs/kit`.
 
 <p align="left">
-    <img width="500" height="auto" src="https://i.imgur.com/IafmSKu.png" alt="homepagescreenshot" />
+    <img width="500" height="auto" src="https://i.imgur.com/" alt="homepagescreenshot" />
 </p>
 
 To view a demo example, **[click here](https://www.husamabadi.com)**
