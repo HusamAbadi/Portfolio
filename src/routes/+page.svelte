@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo - Main page</title>
+	<title>Husam Cavallo - Main page</title>
 </svelte:head>
 <main>
 	<h1>Hi!✋ <br /> I'm Husam a Web Developer 💻</h1>
