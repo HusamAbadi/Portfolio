@@ -4,7 +4,8 @@ const projects = [
 		technologies: ['HTML', 'CSS', 'JavaScript','Svelte'],
 		description:
 			'AssetAlly is a Website Allows the user to list their expenses and revenues easily. Created using Svelte.',
-		url: 'https://github.com/HusamAbadi/AssetAlly'
+		url: 'https://github.com/HusamAbadi/AssetAlly',
+		website: 'assetally.husamabadi.com'
 	},
 	{
 		title: 'WiseMan Discord Bot',
