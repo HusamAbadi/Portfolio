@@ -1,4 +1,4 @@
-# ⚡️SvelteKit-Portfolio⚡️
+# ⚡️My-Portfolio⚡️
 
 ## A personal portfolio website made using `@sveltejs/kit`.
 
@@ -6,7 +6,7 @@
     <img width="500" height="auto" src="https://i.imgur.com/IafmSKu.png" alt="homepagescreenshot" />
 </p>
 
-To view a demo example, **[click here](#)**
+To view a demo example, **[click here](https://www.husamabadi.com)**
 
 ## Features
 
