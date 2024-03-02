@@ -1,18 +1,15 @@
 <script>
-	import projects from 'src/lib/Projects';
+	import projects from '../../lib/Projects';
 </script>
 
 <svelte:head>
-	<title>Husam Cavallo — Projects</title>
+	<title>Husam Abadi — Projects</title>
 </svelte:head>
 
 <div class="projectContainer">
 	<div class="projects">
 		<h1>Projects</h1>
-		<p class="note">
-			Note: most of my projects are under NDA so I am unable to share those projects. If there is
-			anything you would like to see further, please feel free to contact me.
-		</p>
+		<p class="note">Note: most of my projects were originally created as college projects.</p>
 		{#each projects as project}
 			<div class="project">
 				<div class="header">
@@ -33,6 +30,9 @@
 				</p>
 				<a href={project.url} target="_blank" rel="noreferrer">
 					<div class="button">Project url =></div>
+				</a>
+				<a href={project.website} target="_blank" rel="noreferrer">
+					<div class="button">Github url =></div>
 				</a>
 			</div>
 		{/each}
