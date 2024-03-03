@@ -3,7 +3,7 @@
 ## A personal portfolio website made using `@sveltejs/kit`.
 
 <p align="left">
-    <img width="500" height="auto" src="https://imgur.com/1LVVk1k" alt="homepagescreenshot" />
+    <img width="500" height="auto" src="https://imgur.com/gallery/g3TLPYH" alt="homepagescreenshot" />
 </p>
 
 To view a demo example, **[click here](https://www.husamabadi.com)**
@@ -29,4 +29,4 @@ In `src\lib\NavRoutes.js` you need to add in the `routes` an object with the fol
 
 ## Author ❤️
 
-- Husam - https://github.com/HusamAbadi
+- Husam - www.linkedin.com/in/husamaldein-abadi
