@@ -28,10 +28,10 @@
 				<p>
 					{project.description}
 				</p>
-				<a href={project.url} target="_blank" rel="noreferrer">
+				<a href={project.website} target="_blank" rel="noreferrer">
 					<div class="button">Project url =></div>
 				</a>
-				<a href={project.website} target="_blank" rel="noreferrer">
+				<a href={project.github} target="_blank" rel="noreferrer">
 					<div class="button">Github url =></div>
 				</a>
 			</div>
