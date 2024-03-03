@@ -5,20 +5,22 @@ const projects = [
 		description:
 			'AssetAlly is a Website Allows the user to list their expenses and revenues easily. Created using Svelte.',
 		website: 'https://github.com/HusamAbadi/AssetAlly',
-		url: 'assetally.husamabadi.com'
+		url: 'https://assetally.husamabadi.com'
 	},
 	{
-		title: 'WiseMan Discord Bot',
+		title: 'ToDo Flutter App',
 		technologies: ['HTML', 'CSS','Dart', 'other'],
 		description:
 			'A ToDo List Phone Application using Flutter',
-		url: 'assetally.husamabadi.com'
+		website: 'https://github.com/HusamAbadi/ToDo_Flutter',
+		url: 'https://husamabadi.com'
 	},
 	{
-		title: 'SchoolDB',
+		title: 'ConvertToHexadecimal',
 		technologies: ['C#', 'SQL Server', 'ASP.NET Core', 'other'],
-		description: 'FullStack School Management System.',
-		url: 'assetally.husamabadi.com'
+		description: 'A Program that converts decimal numbers to hexadecimal numbers.',
+		website: 'https://github.com/HusamAbadi/ConvertToHexadecimal.git',
+		url: 'https://husamabadi.com'
 	}
 ];
 
