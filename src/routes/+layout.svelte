@@ -274,12 +274,11 @@
 		text-decoration: none;
 		color: #4158d0;
 	}
-	footer .svelte {
-		color: #ff3e00;
-	}
-
 	footer .me {
-		color: #ff3e00;
+		color: #74c0fc;
+	}
+	footer .svelte {
+		color: #74c0fc;
 	}
 
 	@media (min-width: 900px) {

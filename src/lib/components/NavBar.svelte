@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Burger from './Hamburger.svelte';
-	import Logo from '$lib/assets/logo3.png';
+	import Logo from '$lib/assets/logo.png';
 	import routes from '$lib/NavRoutes';
 	let opened = false;
 	export let segment: string;
@@ -52,7 +52,7 @@
 
 	.button:hover::after {
 		content: '';
-		background: #ca3c25;
+		background: #74c0fc;
 		display: block;
 		height: 3px;
 		width: 100%;
@@ -62,7 +62,7 @@
 
 	.button.selected:after {
 		content: '';
-		background: #ca3c25;
+		background: #ffd43b;
 		display: block;
 		height: 3px;
 		width: 100%;

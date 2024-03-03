@@ -28,12 +28,17 @@
 				<p>
 					{project.description}
 				</p>
-				<a href={project.website} target="_blank" rel="noreferrer">
-					<div class="button">Project url =></div>
-				</a>
-				<a href={project.github} target="_blank" rel="noreferrer">
-					<div class="button">Github url =></div>
-				</a>
+				<div class="flex-div">
+					<a href={project.website} target="_blank" rel="noreferrer">
+						<div class="button">
+							Project url
+							<i class="fas fa-external-link" />
+						</div>
+					</a>
+					<a href={project.github} target="_blank" rel="noreferrer">
+						<div class="button">Github url <i class="fas fa-external-link" /></div>
+					</a>
+				</div>
 			</div>
 		{/each}
 	</div>
@@ -79,7 +84,10 @@
 		display: flex;
 		margin: 0;
 	}
-
+	.fas {
+		margin-left: 5px;
+		color: #ffd43b;
+	}
 	.project {
 		text-align: start;
 		box-sizing: border-box;
@@ -127,11 +135,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		border-radius: 15px;
 		color: white;
 		border: 2px solid white;
 		padding: 10px;
 	}
-
+	.button i {
+	}
 	@media (min-width: 900px) {
 		.projectContainer {
 			padding: 0;
@@ -148,6 +158,11 @@
 		.projects .project {
 			min-height: 200px;
 		}
+
+		.flex-div {
+			display: flex;
+			justify-content: space-evenly;
+		}
 		.button {
 			max-width: 200px;
 		}
@@ -156,6 +171,13 @@
 	@media (min-width: 600px) {
 		.projects {
 			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (max-width: 900px) {
+		.flex-div {
+			display: grid;
+			gap: 10px;
 		}
 	}
 </style>

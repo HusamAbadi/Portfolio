@@ -12,14 +12,14 @@ const projects = [
 		technologies: ['HTML', 'CSS','Dart', 'other'],
 		description:
 			'A ToDo List Phone Application using Flutter',
-		website: 'https://husamabadi.com',
+		website: '/',
 		github: 'https://github.com/HusamAbadi/ToDo_Flutter'
 	},
 	{
 		title: 'ConvertToHexadecimal',
 		technologies: ['C#', 'SQL Server', 'ASP.NET Core', 'other'],
 		description: 'A Program that converts decimal numbers to hexadecimal numbers.',
-		website: 'https://husamabadi.com',
+		website: '/',
 		github: 'https://github.com/HusamAbadi/ConvertToHexadecimal.git'
 	}
 ];
